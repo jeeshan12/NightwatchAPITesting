@@ -1,0 +1,25 @@
+{
+  "name": "nightwatch-api-automation",
+  "version": "1.0.0",
+  "description": "Repository to automate API using Nightwatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch --env api_testing",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "module": "es",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@nightwatch/apitesting": "^3.1.1",
+    "chromedriver": "^115.0.1",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "nightwatch": "~3.1.2",
+    "prettier": "^3.0.1"
+  }
+}
